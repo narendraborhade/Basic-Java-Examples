@@ -28,7 +28,7 @@ public final class Country {
 	 
 	 public ArrayList getListOfStates() {
 	     // Returning cloned object 
-	  //return (ArrayList) listOfStates.clone();
-		 return listOfStates;
+	  return (ArrayList) listOfStates.clone();
+		// return listOfStates;
 	 }
 }

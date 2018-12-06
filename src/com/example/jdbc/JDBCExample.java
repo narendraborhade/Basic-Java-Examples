@@ -34,7 +34,7 @@ public class JDBCExample {
 		      stmt = conn.createStatement();
 		      
 		      String sql = "INSERT INTO PERSON " +
-		                   "VALUES (7, 'SUBHASH', 'BORHADE', '28', 'MALE', 'MCA','50000')";
+		                   "VALUES (8, 'SUBHASH', 'BORHADE', '28', 'MALE', 'MCA','50000')";
 		      
 		      stmt.executeUpdate(sql);
 		      System.out.println("Inserted records into the table...");

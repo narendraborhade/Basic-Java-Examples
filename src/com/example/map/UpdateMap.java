@@ -19,7 +19,7 @@ public class UpdateMap {
 		}
 		
 		//nameMap.put(2, "Rajesh");
-		nameMap.replace(2, "Mahesh", "Rajesh");
+		//nameMap.replace(2, "Mahesh", "Rajesh");
 		
 		System.out.println("Names are as follows:");
 		

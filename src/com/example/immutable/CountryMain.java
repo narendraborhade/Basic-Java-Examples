@@ -12,6 +12,7 @@ public class CountryMain {
 		listOfStates.add("GJ");
 		listOfStates.add("KA");
 		listOfStates.add("TN");
+		listOfStates.add("TN");
 		Country country = new Country(countryName, listOfStates);
 		
 		System.out.println(country.getListOfStates());
